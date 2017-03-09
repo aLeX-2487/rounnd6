@@ -1,0 +1,236 @@
+html{font-size: 62.5%;}
+
+@media   (max-width: 400px) {
+    html{font-size: 45%}
+    }
+
+body{margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;}
+
+.head{
+    height: 8rem;
+    width: 100%;
+    position: fixed;
+    top:0;left: 0;right: 0;
+    background: #67C5D2;
+    text-align: center;
+}
+.head-l{
+    max-height: 2rem;
+    height: 2rem;
+    position: absolute;
+    top:11%;right: 50%;
+    width: 15%;
+    margin:auto 0;
+    padding:2rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #668B8B;
+    font-size: 2rem;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    color: white;
+}
+.head-r{
+    max-height: 2rem;
+    height: 2rem;
+    position: absolute;
+    top:11%;left: 50%;
+    width: 15%;
+    margin:auto 0 auto -0.2rem;
+    padding:2rem;
+    border-radius: 5px;
+    background: white;
+    font-size: 2rem;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    color:#67C5D2 ;
+}
+.head-img{
+    width: 2.8rem;
+    height: 2.8rem;
+    float: right;
+    padding: 2.6rem .5rem 2.6rem 0;
+}
+a:link{text-decoration:none;text-align: center}
+a:visited{text-decoration:none;}
+
+.head1{
+    width: 18rem;
+    height: 6rem;
+    text-align: center;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    background: #668B8B;
+}
+.address_img{width: 3rem;height: 3.2rem;float: right;padding: 2.4rem 2rem;}
+
+.main{
+    display: inline-block;
+    height: 5rem;
+    text-align: center;
+    margin-top: 8rem;
+    width: 100%;
+    background: white;
+    border-bottom:1px solid gainsboro;
+    position: fixed;
+    top:0;left: 0;
+}
+
+
+
+
+.btn-group{
+    margin: 0;
+    padding: 0;
+    height: 5rem;
+    width: 27%;
+}
+.btn-group>.btn{
+    width: 100%;
+    height: 5rem;
+    font-size: 1.5rem;
+    background: white;
+    border: white;
+
+}
+.caret{
+    float: right;
+    border-top: 6px solid #000;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
+.main-1{
+    width: 100%;
+    height: 11.2rem;
+    float: left;
+    background:white;
+    border-bottom:1px solid gainsboro;
+
+
+}
+.main-1-1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.main-1-1-1{
+    width: 100%;
+    float: left;
+    height: 3.73rem;
+}
+.main-1-1-1 img{
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+    padding: 1.5rem 0 1rem 1.8rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+
+}
+.sprites-dete{
+    background-position: -19px -0px;
+    width: 24px; height: 24px;
+    float: left;
+    margin: 1rem 0 0 1rem;
+    background-image:url(./11.png);
+}
+.sprites-address{
+    background-position:0 0;
+    width:19px;
+    height: 23px;
+    float: left;
+    margin: 1rem 0 0 1rem;
+    background-image:url(./11.png);
+
+}
+p{
+    max-height: .5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    float: left;
+    padding:1.1rem 0 1.1rem 1rem ;
+    margin: 0;
+    color: gainsboro;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+
+}
+div.test{text-overflow:ellipsis;}
+p1 {
+     float: right;
+     font-size: 1.8rem;
+     margin: 0 auto;
+     padding: 0;
+     line-height: 11.2rem;
+     color: red;
+
+ }
+.img-1{
+    width:1rem;
+    height: 1.8rem;
+    float: right;
+    margin: 4.8rem 1.5rem;
+}
+.footer{
+     position: fixed;
+     left: 0;right: 0;bottom: 0;
+     width: 100%;
+     height:6.2rem;
+     background: gainsboro;
+ }
+.footer-l{
+    width: 40%;
+    height:6.2rem;
+    padding: 0.6rem 0;
+    margin: 0;
+    float: left;
+}
+.footer-r{
+    width: 40%;
+    height:6.2rem;
+    padding: 0.6rem 0;
+    margin: 0;
+    float: right;
+}
+.footer-c{
+    width: 20%;
+    height:6.2rem;
+    padding: 0.7rem 0;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+}
+img{
+    width: 2.5rem;
+    height: 2.2rem;
+    float: none;
+}
+
+.footer-l a{
+    width: 100%;
+    float: right;
+    height: 2.8rem;
+    text-align: right;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color:#67C5D2 ;
+}
+.footer-r a{
+    width: 100%;
+    float: left;
+    height: 2.8rem;
+    text-align: left;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: black;
+}
+.footer-c img{
+    width: 5rem;
+    height: 5rem;
+    float: none;
+}
