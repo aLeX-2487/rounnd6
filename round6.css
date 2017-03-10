@@ -44,6 +44,7 @@ body{margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;}
     font-family: "微软雅黑";
     font-weight: normal;
     color:#67C5D2 ;
+
 }
 .head-img{
     width: 2.8rem;
@@ -52,7 +53,9 @@ body{margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;}
     padding: 2.6rem .5rem 2.6rem 0;
 }
 a:link{text-decoration:none;text-align: center}
-a:visited{text-decoration:none;}
+a:visited{text-decoration:none;color;}
+a.head-l:visited{color: white}
+a.head-r:visited{color: #67C5D2}
 
 .head1{
     width: 18rem;
@@ -61,6 +64,7 @@ a:visited{text-decoration:none;}
     margin: 1rem auto;
     border-radius: 1rem;
     background: #668B8B;
+    color: ;
 }
 .address_img{width: 3rem;height: 3.2rem;float: right;padding: 2.4rem 2rem;}
 
@@ -92,6 +96,11 @@ a:visited{text-decoration:none;}
     background: white;
     border: white;
 
+
+}
+.dropdown-menu{
+    min-width: auto;
+    width: 100%;
 }
 .caret{
     float: right;
